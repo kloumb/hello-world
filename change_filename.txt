@@ -1,0 +1,22 @@
+1、改变文件名称
+mv [options] 目标文件名 修改后文件名
+
+2、创建文件
+touch hello.txt
+
+3、创建文件夹
+mkdir file_pack
+
+4、删除文件
+rm -rf 文件名称或者文件夹名称
+
+5、修改文件、保存及退出文件
+按了ESC后，直接按shift+zz，即可退出保存；或者转为大写后，按ZZ；
+wq!强制保存，并退出；
+q!不保存，强制退出；
+
+6、复制文件(把文件复制到hello文件内，名称为hello1.txt)
+cp hello.txt hello/hello1.txt
+
+7、移动文件(把文件hello.txt移动到hello文件夹内的hello.txt中)
+mv hello.txt hello/hello.txt
